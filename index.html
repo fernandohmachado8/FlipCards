@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f5ee" />
+    <meta
+      name="description"
+      content="Good people. Great company. Meet six colorful characters and flip their cards to discover a little more. An interactive project by Fernando Machado."
+    />
+    <meta property="og:title" content="FlipCards — Good Company" />
+    <meta
+      property="og:description"
+      content="Everyone has another side. A playful little collection of people, personalities, and unexpected stories."
+    />
+    <meta property="og:type" content="website" />
+    <title>FlipCards — Good Company</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#crew">Skip to the cards</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="./" aria-label="FlipCards home"
+          ><span class="brand-icon" aria-hidden="true"><i></i><i></i></span
+          >FlipCards</a
+        >
+        <nav aria-label="Main navigation">
+          <a class="nav-current" href="#crew">The company</a>
+          <a href="#about">The idea</a>
+          <a
+            class="source-link"
+            href="https://github.com/fernandohmachado8/FlipCards"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View source <span aria-hidden="true">↗</span
+            ><span class="sr-only"> (opens in a new tab)</span></a
+          >
+        </nav>
+      </header>
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="tiny-spark" aria-hidden="true">✳</span> A small
+              collection of good humans
+            </p>
+            <h1 id="hero-title">
+              Good people.<br /><em>Great company.</em
+              ><span class="heading-star" aria-hidden="true">✳</span>
+            </h1>
+            <p class="hero-description">
+              There’s more to everyone than a first impression.<br
+                class="desktop-break"
+              />
+              Meet the crew. Flip a card. Find a little unexpected.
+            </p>
+            <a class="primary-link" href="#crew"
+              >Meet the company <span aria-hidden="true">↘</span></a
+            >
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <span class="art-orbit"></span>
+            <div class="mini-card mini-card-back">
+              <span>THE OTHER SIDE</span><span class="mini-smile">☺</span
+              ><span>A little more human.</span>
+            </div>
+            <div class="mini-card mini-card-front">
+              <span>HELLO, CURIOUS HUMAN.</span
+              ><img
+                src="assets/portraits/maya.svg"
+                alt=""
+                width="600"
+                height="520"
+              /><span class="mini-card-caption"
+                >Nice to meet you. <b>↗</b></span
+              >
+            </div>
+            <span class="art-spark">✦</span>
+            <span class="art-note"
+              >a new perspective<br />is just a flip away
+              <svg viewBox="0 0 90 55" fill="none">
+                <path d="M5 8c46 40 81 34 69-3m0 0-11 12M74 5l12 13" /></svg
+            ></span>
+          </div>
+        </section>
+        <section class="crew-section" id="crew" aria-labelledby="crew-title">
+          <div class="section-heading">
+            <h2 id="crew-title">
+              Meet the company <span class="count" id="crew-count">06</span>
+            </h2>
+            <p>
+              <span class="flip-hint-icon" aria-hidden="true">↔</span> A
+              familiar face. A surprising flip side.
+            </p>
+          </div>
+          <div class="toolbar">
+            <div class="filters" role="group" aria-label="Filter the company">
+              <button
+                class="filter is-active"
+                type="button"
+                data-filter="all"
+                aria-pressed="true"
+              >
+                Everyone <span>06</span>
+              </button>
+              <button
+                class="filter"
+                type="button"
+                data-filter="creative"
+                aria-pressed="false"
+              >
+                The creatives
+              </button>
+              <button
+                class="filter"
+                type="button"
+                data-filter="explorer"
+                aria-pressed="false"
+              >
+                The explorers
+              </button>
+              <button
+                class="filter"
+                type="button"
+                data-filter="maker"
+                aria-pressed="false"
+              >
+                The makers
+              </button>
+            </div>
+            <button class="flip-all" id="flip-all" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4 8a8 8 0 0 1 14-2l2 2M20 3v5h-5M20 16a8 8 0 0 1-14 2l-2-2M4 21v-5h5"
+                /></svg
+              ><span>Flip everyone</span>
+            </button>
+          </div>
+          <div class="card-grid" id="card-grid"></div>
+          <noscript
+            ><p class="noscript-notice">
+              Turn on JavaScript to meet the six characters and flip their
+              cards. This little interaction runs entirely in your browser.
+            </p></noscript
+          >
+          <div class="gallery-note">
+            <span
+              ><span class="note-dot" aria-hidden="true"></span> Different
+              personalities. Better together.</span
+            ><span>Click, tap, or press <kbd>Enter</kbd> to flip</span>
+          </div>
+          <p
+            id="gallery-status"
+            class="sr-only"
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+          ></p>
+        </section>
+        <section class="about-section" id="about" aria-labelledby="about-title">
+          <div class="about-art" aria-hidden="true">
+            <span>✳</span><span>☺</span>
+          </div>
+          <div>
+            <p class="eyebrow">A little project about perspective</p>
+            <h2 id="about-title">Everyone has <em>another side.</em></h2>
+            <p>
+              What started as a simple flip-card experiment became a celebration
+              of the little things that make people interesting. Six imagined
+              friends, a handful of hidden stories, and one good reason to stay
+              curious.
+            </p>
+          </div>
+          <a href="#crew" class="back-to-crew"
+            >Keep exploring <span aria-hidden="true">↗</span></a
+          >
+        </section>
+      </main>
+      <footer class="site-footer">
+        <a class="footer-brand" href="./"
+          >FlipCards<span aria-hidden="true">✳</span></a
+        >
+        <p>
+          A little curiosity, by
+          <a
+            href="https://github.com/fernandohmachado8"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Fernando Machado<span class="sr-only">
+              (opens in a new tab)</span
+            ></a
+          >.
+        </p>
+        <a href="#" class="back-top"
+          >Back to top <span aria-hidden="true">↑</span></a
+        >
+      </footer>
+    </div>
+  </body>
+</html>

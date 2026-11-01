@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" fill="none">
+  <defs><clipPath id="shirt"><path d="M113 520c5-91 39-136 113-152l74-13 74 13c74 16 108 61 113 152z"/></clipPath></defs>
+  <path d="M113 520c5-91 39-136 113-152l74-13 74 13c74 16 108 61 113 152" fill="#F5E9CD"/>
+  <g clip-path="url(#shirt)" stroke="#456661" stroke-width="17"><path d="M100 407h400M100 448h400M100 489h400"/></g>
+  <path d="m255 321-15 51c11 31 32 49 60 49s49-18 60-49l-15-51" fill="#DBA282"/>
+  <path d="M255 338c26 17 63 17 90-1l-5-29h-80z" fill="#C58B70"/>
+  <path d="M231 372c13 39 36 59 69 59s56-20 69-59" stroke="#345852" stroke-width="13"/>
+  <path d="m173 442-9 78m263-78 9 78" stroke="#C8BEA7" stroke-width="3"/>
+  <ellipse cx="212" cy="244" rx="23" ry="31" fill="#DBA282"/>
+  <ellipse cx="388" cy="244" rx="23" ry="31" fill="#DBA282"/>
+  <path d="M215 177c2-42 34-68 85-68s83 26 85 68l-3 91c-2 53-35 88-82 88s-80-35-82-88z" fill="#EDB89A"/>
+  <path d="M213 223c-21-18-26-54-7-75-14-27 12-57 40-54 14-29 52-38 75-18 27-19 59 5 64 27 28-1 41 22 34 42-3 37-17 62-34 80l-10-54c-29 14-57 2-72-18-17 28-43 33-71 24z" fill="#9C5035"/>
+  <path d="M229 140c18 3 32-4 40-18m47-26c9 13 20 18 35 18m-62 12c12 20 30 27 49 26" stroke="#B56745" stroke-width="5" stroke-linecap="round"/>
+  <path d="M239 215c13-6 25-6 37-1m48 0c12-5 24-5 37 1" stroke="#9C5035" stroke-width="6" stroke-linecap="round"/>
+  <path d="M249 239c6-5 13-5 19 0m64 0c6-5 13-5 19 0" stroke="#4C4940" stroke-width="5" stroke-linecap="round"/>
+  <path d="m300 239-8 32 13 4" stroke="#C88C72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M272 297c17 15 41 15 57-1" stroke="#9D5E4C" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#BF8266"><circle cx="238" cy="267" r="2.5"/><circle cx="249" cy="270" r="2.5"/><circle cx="261" cy="267" r="2.5"/><circle cx="339" cy="267" r="2.5"/><circle cx="351" cy="270" r="2.5"/><circle cx="362" cy="267" r="2.5"/></g>
+  <path d="M205 270c-10 1-14 9-10 16 4 7 13 9 19 3" stroke="#DEB24C" stroke-width="5" stroke-linecap="round"/>
+</svg>
